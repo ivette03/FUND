@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@300&family=Oswald&family=Roboto:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <title>Dona tu tiempo</title>
+  </head>
+<body>
+  <header class="color-header">
+    <div class="container">
+        <div class="row align-items-center py-4">
+          <div class="col">
+            <div class="logo-container text-center text-sm-start">
+              <img src="img/logo.png" alt="imagen de logo dona tu tiempo" width="40px">
+              <h1 class="color-tiempo negrita titulo"><span class="text-secondary">Dona tu </span> 
+               tiempo
+              </h1>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="container">
+        <div class="col-6 col-lg-9">
+          <nav class="navbar navbar-expand-lg">
+            <div class="form-group">
+              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mx-3 text-light text-center">MENU</span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-secondary " href="#inicio">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#contacto">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#proyectos">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#testimonios">TESTIMONIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#ubicacion">UBICACIÓN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#sobrenosotros">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#noticias">NOTICIAS</a>
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group">
+                      <a href="#contacto" class="btn color-apoyanos text-light mb-3 mx-2">APOYANOS</a>
+                  </div>
+                  
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group">
+                    <button class="btn color-acceder dropdown-toggle mb-3 text-light" type="button" id="loginDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="img/user-solid.svg" alt="icono acceder" width="15px">
+                      ACCEDER
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="loginDropdown">
+                      <form class="px-3 py-3">
+                        <div class="form-group">
+                          <label for="email">Correo electrónico</label>
+                          <input type="email" class="form-control my-3" id="email" placeholder="example@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Contraseña</label>
+                          <input type="password" class="form-control my-3" id="password" placeholder="Contraseña">
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Iniciar sesión">
+                      </form>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item my-3" href="#">¿Olvidaste tu contraseña?</a>
+                      <a class="dropdown-item my-3" href="#">Crear una cuenta</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+    
+  <!--CARRUSEL DE IMAGENES-->
+
+<section>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/imagen1.jpg" class="d-block w-100 " alt="imagen fundacion">
+        <div class="carousel-caption">
+          <h3 class="negrita text-light">POR UN FUTURO MEJOR</h3>
+        </div>
+      </div>
+      <div></div>
+      <div class="carousel-item ">
+        <img src="img/imagen3.jpg" class="d-block w-100 imagen" alt="imagen fundacion">
+        <div class="carousel-caption">
+          <h3 class="negrita text-light">POR UN FUTURO MEJOR</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagen2.jpg" class="d-block w-100 imagen" alt="imagen fundacion">
+        <div class="carousel-caption">
+          <h3 class="negrita text-light">POR UN FUTURO MEJOR</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagen2.jpg" class="d-block w-100 imagen" alt="imagen fundacion">
+        <div class="carousel-caption">
+          <h3 class="negrita text-light">POR UN FUTURO MEJOR</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--NOSOTROS-->
+<section class="seccion-mision" id="nosotros">
+  <h2 class="negrita text-center color-section  my-5 text-light py-3">SOBRE NOSOTROS</h2>
+  <div class="mision">
+    <img src="img/mision.jpg"  alt="imagen mision">
+  </div>
+  <div class="container my-5 text-center texto" >
+    <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi atque 
+      voluptatum exercitationem mollitia porro non, eum ea qui nemo, praesentium dolorem saepe.
+       Suscipit voluptatibus ipsa voluptates nihil repellendus eveniet reiciendis.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque natus 
+      nisi nihil consequuntur alias rem quos dolore et omnis ut ducimus,
+       quaerat corrupti. Iste omnis at ab quasi, accusantium nemo!</p>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi atque 
+        voluptatum exercitationem mollitia porro non, eum ea qui nemo, praesentium dolorem saepe.
+         Suscipit voluptatibus ipsa voluptates nihil repellendus eveniet reiciendis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque natus 
+        nisi nihil consequuntur alias rem quos dolore et omnis ut ducimus,
+         quaerat corrupti. Iste omnis at ab quasi, accusantium nemo!</p>
+  </div>
+</section>
+ 
+ <!--vision y mision-->
+<section class="my-5 bg-info-subtle" id="visionymision">
+  <div class="container">
+    <div class="row">
+      <!-- Columna del texto -->
+      <div class="col-md-6 order-md-2 mb-5 py-5">
+        <h2 class="negrita text-secondary text-center texto">Visión</h2>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, exercitationem mollitia magni 
+        dignissimos ullam excepturi magnam nisi praesentium, eos esse voluptas vero quas ab repudiandae 
+        tempore, similique asperiores natus iste.</p>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, exercitationem mollitia magni 
+          dignissimos ullam excepturi magnam nisi praesentium, eos esse voluptas vero quas ab repudiandae 
+          tempore, similique asperiores natus iste.</p>
+      </div>
+      <!-- Columna de la imagen -->
+      <div class="col-md-6 order-md-1 py-5">
+        <img src="img/vision.jpg" alt="Imagen Visión" class="img-fluid imagen-con-sombra zoom-image">
+      </div>
+    </div>
+    <div class="row">
+      <!-- Columna del texto -->
+      <div class="col-md-6 order-md-2">
+        <h2 class="text-secondary negrita text-center texto">Misión</h2>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, exercitationem mollitia magni 
+        dignissimos ullam excepturi magnam nisi praesentium, eos esse voluptas vero quas ab repudiandae 
+        tempore, similique asperiores natus iste.</p>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, exercitationem mollitia magni 
+          dignissimos ullam excepturi magnam nisi praesentium, eos esse voluptas vero quas ab repudiandae 
+          tempore, similique asperiores natus iste.</p>
+      </div>
+      <!-- Columna de la imagen -->
+      <div class="col-md-6 order-md-1 my-5">
+        <img src="img/misionimagen.jpg" alt="Imagen Visión" class="img-fluid imagen-con-sombra zoom-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+
+
+      
+       
+<!--seccion noticias-->
+<h2 class="negrita text-center color-section text-light py-3">NOTICIAS</h2>
+
+  <!-- Seccion carrousel de imagenes -->
+  <section class="image-section secundary" id="imagenes">
+    <div class="image-container">
+
+    </div>
+    
+    <div class="navigation-left navigation-btn">
+      <i class="fa-solid fa-caret-left"></i>
+    </div>
+    <div class="navigation-right navigation-btn">
+      <i class="fa-solid fa-caret-right"></i>
+    </div>
+  </section>
+
+
+
+
+
+<!--seccion testimonios-->
+<section id="testimonios">
+  <h2 class="negrita text-center color-section my-5 text-light py-3">HISTORIAS DE CAMBIO</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-3 imagen-con-sombra color-apoyanos">
+          <img src="img/testimonio1.jpg" class="card-img-top zoom-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title negrita text-center texto">CARLA BELTRAN</h5>
+            <p class="card-text text-light text-center texto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum voluptas repellendus non velit perspiciatis at voluptatibus, repellat, ratione autem
+            ad eaque et, unde doloremque harum tenetur dolorum! Esse, quos..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3 imagen-con-sombra color-apoyanos">
+          <img src="img/testimonio2.jpg" class="card-img-top zoom-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title negrita text-center texto">Katherine Olivera</h5>
+            <p class="card-text text-light text-center texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellendus sapiente quas labore? Autem, similique quos. Dolor quis ab similique blanditiis
+             cupiditate laudantium vel nulla voluptates. Iure perspiciatis adipisci commodi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3 imagen-con-sombra color-apoyanos">
+          <img src="img/testimonio3.jpg" class="card-img-top zoom-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title negrita text-center texto">Jeferson Rodriguez</h5>
+            <p class="card-text text-light text-center texto" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla sequi temporibus cumque praesentium est aut at. Libero incidunt
+               accusantium, id quas, dolor fugiat facere sed ex debitis, rem neque?.jnjakanajnajnjnj</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+ 
+
+</div>
+</section>
+
+
+<!--FORMULARIO-->
+<section class="my-5 container formulario-contacto" id="contacto">
+    <div>
+        <form class="bg-secondary px-5 py-5">
+          <h3 class="negrita text-center text-info ">MESA DE AYUDA</h3>
+          <p class="text-center text-light">Para cualquier queja, sugerencia y consulta por favor escríbanos.</p>
+            <div class="mb-3">
+              <label class="form-label text-light">Nombre</label>
+              <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light">Numero de telefono</label>
+              <input type="text" class="form-control" id="telefono">
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-light">Mensaje</label>
+              <textarea class="form-control" placeholder="escribe un mensaje aqui" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-info text-light my-3 negrita">ENVIAR</button>
+          </form>
+
+    </div>
+</section>
+<!-- Seccion del Mapa  -->
+<h2 class="negrita text-center color-section text-light py-3">UBICACIÓN EN MAPA</h2>
+<section class="section-map secundary container" id="ubicacion">
+  <div id="map-container">
+    <a href="https://goo.gl/maps/FHM9W8xUe9Mvasrp7">
+      <div id="map-overlay"></div>
+    </a>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.074374665893!2d-79.90797248886814!3d-2.1250723371104128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6dd886bd6581%3A0x5110c510ed0eccee!2sMall%20del%20R%C3%ADo!5e0!3m2!1ses-419!2sec!4v1684693697765!5m2!1ses-419!2sec" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="text-center text-lg-start color-apoyanos text-muted">
+    <!-- Section: redes sociales-->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- izquierda -->
+      <div class="me-5 d-none d-lg-block">
+        <span class="text-light">Conecta con nosotros en redes sociales</span>
+      </div>
+      <!-- derecha -->
+ </section>
+<section class="text-light">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>FUNDACION
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quibusdam! Blanditiis corporis quos,
+             at ducimus ex velit laudantium quisquam exercitationem nisi odio laborum harum molestias tenetur. Ullam impedit ipsam blanditiis.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-center ">
+            <h6 class="text-uppercase fw-bold mb-4">
+              quienes somos
+            </h6>
+            <p>
+              <a href="#nosotros" class="text-reset">Nosotros</a>
+            </p>
+            <p>
+              <a href="#visionymision" class="text-reset">Visión</a>
+            </p>
+            <p>
+              <a href="#visionymision" class="text-reset">Misión</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Equipo</a>
+            </p>
+            <p>
+              <a href="#testimonios" class="text-reset">testimonios</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">ContactO</h6>
+            <p><i class="fas fa-home me-3"></i> Guayaquil, GYE, EC</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              FUNDAICON@EJEMPLO.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 593 7588393</p>
+            <p><i class="fas fa-print me-3"></i> + 593 282982</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+</section>
+</footer>
+<!--budnle-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--personalizado-->
+<script src="scripts.js/index.js"></script>
+</body>
+</html>

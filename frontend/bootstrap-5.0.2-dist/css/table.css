@@ -1,0 +1,22 @@
+.container{
+    border: solid 1px #000;
+}
+th{
+   background-color: #118eae;
+   border: solid 1px #000;
+}
+.color-apoyanos{
+    background-color: #118eae;
+
+}
+.color-modulo:hover{
+    background-color: #017c9b;
+
+}
+.imagen-persona{
+    width: 50px;
+    border-radius: 2rem;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}

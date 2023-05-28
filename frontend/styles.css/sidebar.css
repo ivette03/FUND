@@ -1,0 +1,33 @@
+:root{
+   --primary: #118eae;
+   --secundary:#e2445d;
+   --blanco:#FFFFFF;
+}
+.color-apoyanos{
+    background-color: var(--primary);
+}
+body{
+    overflow: hidden;
+    color: var(--blanco);
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    background-color: #007e9e;
+}
+.sidebar-container .logo{
+    min-height: 100vh;
+    padding: .875rem 1.25rem;
+}
+.sidebar-container .menu{
+    width: 18rem;
+}
+.bg-primary{
+    background-color: var(--primary)!important;
+}
+.imagen-persona{
+    max-width: 20px;
+}

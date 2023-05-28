@@ -1,0 +1,224 @@
+:root{
+    --primary:#07c6e4;
+    --secundario:white;
+}
+.color-tiempo{
+  color: #118eae;
+}
+.color-apoyanos{
+  background-color: #118eae;
+}
+.color-acceder{
+  background-color:#c46e78 ;
+}
+.color-section{
+  background-color: #e2445d;
+}
+.color-header{
+  background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.carousel-item {
+    max-height:50rem;
+     /* Altura máxima de cada imagen */
+    
+}
+  
+.logo-container img {
+    margin-right: 10px; /* Espacio entre el logo y el título */
+    border-radius: 25px;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+  
+
+.nav-link{
+    color: #f1f1f1;
+    font-weight: 600!important;
+}
+.nosotros{
+    text-align: justify;
+    line-height: 25px;
+   
+}
+.colorprincipal{
+    color: var(--primary);
+}
+
+.negrita{
+    font-weight: bold;
+    font-family: Roboto;
+    letter-spacing: 5px;
+    margin-top: 1rem;
+
+}
+.texto{
+    font-family: Lato;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-family: Montserrat;
+    
+}
+.titulo{
+    font-size: 2rem;
+    letter-spacing: 0;
+    line-height: 0;
+    display: flex;
+ 
+}
+.zoom-image {
+    transition: opacity 0.3s ease;
+  }
+  
+.zoom-image:hover {
+    opacity: 0.7;
+}
+.btn-animation {
+    transition: transform 0.3s ease;
+}
+  
+.btn-animation:hover {
+    transform: scale(1.1);
+}
+.carousel-caption{
+    position: absolute;
+    top: 20em; /* ajustar posicion vertical */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+.carousel-caption h3{
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-family: oswald;
+    opacity: 0.7;
+}
+.card img{
+    height: 20rem;
+}
+.formulario-contacto textarea{
+    resize: none;
+}
+
+.seccion-mision {
+    width: 100%;
+  
+  }
+  
+.mision {
+    width: 100%;
+    max-height: 400px; /* Ajusta la altura deseada aquí */
+    overflow: hidden;
+ 
+  }
+  
+.mision img {
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: luminosity;
+    object-position: center;
+    
+}
+.imagen-con-sombra {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.10);
+}
+.custom-toggler{
+    background-color:red;
+}
+
+
+
+/* Seccion de carrousel de imagenes */
+
+.image-section {
+    height: auto;
+    position: relative;
+  }
+  
+  .image-section .image-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 5px;
+  }
+  
+  .image-section .image-container img {
+    flex: 1;
+    width: calc(99% / 3.3);
+    height: 100%;
+    object-fit:fill;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  
+  .image-section .image-container img:last-child {
+    margin-right: 0;
+  }
+  
+  .image-section .image-container img:hover {
+    transform: scale(1);
+    cursor: pointer;
+    opacity: 1;
+  
+  }
+  
+  .image-section .image-container .current {
+    margin: 0 25px 0 25px;
+    transform: scale(1);
+    opacity: 1;
+    /* agregar filtro negro a la imagen */
+    
+    filter: brightness(95%);
+  
+  }
+  .image-section .image-container .current:hover {
+    transform: scale(1.1);
+  
+  }
+  
+  
+  .image-section .navigation-left,
+  .image-section .navigation-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    color: #a4a3a372;
+    cursor: pointer;
+  }
+  
+  .image-section .navigation-right {
+    right: 40px;
+  }
+  
+  .image-section .navigation-left {
+    left: 40px;
+  }
+  
+  .image-section .navigation-left:hover,
+  .image-section .navigation-right:hover {
+    color: #e6425a;
+  }
+  
+  
+  
+  
+  
+  
+  
